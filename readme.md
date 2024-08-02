@@ -1,8 +1,12 @@
 # Netrics
-<!-- image  from grafana/image.png -->
+
 ![Netrics](grafana/image.png)
 
 Netrics is a simple network monitoring tool that monitors the network and provides a simple web interface to view the status of the network using Grafana.
+
+## Notice
+
+>   The docker-compose file uses the `network_mode: host` to access the host network. Meaning it wont work on windows and mac. You can use the `bridge` network mode and expose the ports to the host machine. or if you have a way to access the host network interface from the container you can feel free to create a pull request.
 
 ## Installation
 
