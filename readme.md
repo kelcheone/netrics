@@ -13,7 +13,7 @@ Netrics is a simple network monitoring tool that monitors the network and provid
 
 1. Open your browser and go to `http://localhost:2345`
 2. Login with the default credentials `admin:admin`
-3. Add a new prometheus datasource with the url `http://prometheus:9123`
+3. Add a new prometheus datasource with the url `http://localhost:9123`
 4. run save and test
 5. Import the dashboard from `grafana/dashboard.json`
 6. Enjoy monitoring your network
